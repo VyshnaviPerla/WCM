@@ -1,4 +1,6 @@
-var userInput = prompt("choose ROCK, PAPER or SCISSORS");
+
+
+var userInput = prompt("Select ROCK, PAPER or SCISSORS");
 alert("your result is : " + userInput);
 var rpsValues = Math.random();
 if (rpsValues <0.30)
@@ -54,6 +56,7 @@ function compareVal(c1,c2) {
         else{
             // alert("SCISSORS HAS WON");
             return "SCISSORS HAS WON";
+            ImageData
         }
     }
 }
