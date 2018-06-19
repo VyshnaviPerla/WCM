@@ -1,0 +1,55 @@
+/* app css stylesheet */
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://image.shutterstock.com/image-photo/tomato-basil-sandwiches-ingredients-italian-260nw-326850365.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+{
+
+   font-family: Helvetica, Arial, sans-serif;
+  border-top: 5px solid #ede4e9;
+  margin: 0px auto;
+  font-size: 14px;
+  color: #8e3d27;
+  font-size: 16px;
+}
+
+.menu {
+  list-style: upper-latin;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.tblSpan
+{
+  width:200px;
+  height:auto;
+  margin:20px 20px 20px 20px;
+
+}
